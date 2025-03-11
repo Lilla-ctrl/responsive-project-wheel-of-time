@@ -1,0 +1,45 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+    url("../media/header.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+  padding: 300px 0;
+}
+
+header h1 {
+  font-weight: 700;
+  font-size: 96px;
+  margin: 0;
+}
+
+header h2 {
+  font-weight: 900;
+  font-size: 24px;
+  letter-spacing: 5px;
+}
+
+header h3 {
+  font-weight: 400;
+  font-size: 40px;
+}
+
+header a {
+  padding: 16px 32px;
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  display: inline-block;
+  letter-spacing: 3px;
+}
