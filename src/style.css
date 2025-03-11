@@ -14,6 +14,7 @@ header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  grid-gap: 10px;
   text-align: center;
   color: white;
   padding: 300px 0;
@@ -66,5 +67,48 @@ header a {
   header a {
     padding: 8px 16px;
     font-size: 10px;
+  }
+}
+
+footer {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)),
+    url("../media/footer.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  padding: 100px 170px;
+}
+
+footer h3 {
+  font-weight: 700;
+  font-size: 20px;
+}
+
+footer p {
+  font-weight: 400;
+  font-size: 16px;
+}
+
+footer a {
+  text-decoration: none;
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.footer-link {
+  margin-bottom: 20px;
+}
+
+.footer-grid {
+  margin: 0 30px;
+}
+
+@media (max-width: 800px) {
+  footer {
+    grid-template-columns: 1fr;
   }
 }
