@@ -70,6 +70,37 @@ header a {
   }
 }
 
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 100px 170px;
+  grid: 10px;
+  color: #272044;
+}
+
+main img {
+  max-width: 90%;
+}
+
+.main-section-text h1 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+.main-section-text h2 {
+  opacity: 30%;
+  font-weight: 700;
+  font-size: 16px;
+  letter-spacing: 5px;
+}
+
+.main-section-text p {
+  opacity: 70%;
+  font-weight: 400;
+  font-size: 16px;
+}
+
 footer {
   display: grid;
   grid-template-columns: 2fr 2fr 2fr;
