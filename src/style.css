@@ -279,7 +279,7 @@ h2 {
 footer {
   display: grid;
   grid-template-columns: 2fr 2fr 2fr;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.9)),
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),
     url("../media/footer.jpg");
   background-size: cover;
   background-position: center;
